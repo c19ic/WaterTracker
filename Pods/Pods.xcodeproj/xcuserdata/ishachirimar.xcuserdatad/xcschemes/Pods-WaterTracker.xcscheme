@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE273EE712890136F5C10A1F3104CA6E"
+               BlueprintIdentifier = "6D0390297FA297D100A6012DA8C639EF"
                BuildableName = "Pods_WaterTracker.framework"
                BlueprintName = "Pods-WaterTracker"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BE273EE712890136F5C10A1F3104CA6E"
+            BlueprintIdentifier = "6D0390297FA297D100A6012DA8C639EF"
             BuildableName = "Pods_WaterTracker.framework"
             BlueprintName = "Pods-WaterTracker"
             ReferencedContainer = "container:Pods.xcodeproj">

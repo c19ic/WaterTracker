@@ -1,16 +1,34 @@
 PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - ReactiveSwift (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.0.0)
   - SnapKit (4.0.0)
+  - Then (2.3.0)
 
 DEPENDENCIES:
-  - SnapKit (~> 4.0.0)
+  - Charts
+  - ReactiveSwift
+  - SnapKit
+  - Then
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Charts
+    - ReactiveSwift
+    - Result
     - SnapKit
+    - Then
 
 SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
 
-PODFILE CHECKSUM: aaf695d677f58c6c8128782f20621323ff28092d
+PODFILE CHECKSUM: 29fed6a1625431c6cef588bcac7731c49556d234
 
 COCOAPODS: 1.5.3

@@ -11,10 +11,21 @@
 		F35D326621126B8E003A3BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D326521126B8E003A3BA2 /* AppDelegate.swift */; };
 		F35D326821126B8E003A3BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D326721126B8E003A3BA2 /* ViewController.swift */; };
 		F35D326B21126B8E003A3BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35D326921126B8E003A3BA2 /* Main.storyboard */; };
-		F35D326E21126B8E003A3BA2 /* WaterTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F35D326C21126B8E003A3BA2 /* WaterTracker.xcdatamodeld */; };
 		F35D327021126B8E003A3BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35D326F21126B8E003A3BA2 /* Assets.xcassets */; };
 		F35D327321126B8E003A3BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35D327121126B8E003A3BA2 /* LaunchScreen.storyboard */; };
 		F35D327B21126BCA003A3BA2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D327A21126BCA003A3BA2 /* ViewModel.swift */; };
+		F36F53C621127E8A00916198 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F53C221127E8800916198 /* Colors.swift */; };
+		F36F53C721127E8A00916198 /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F53C321127E8900916198 /* RectangleLayer.swift */; };
+		F36F53C821127E8A00916198 /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F53C421127E8A00916198 /* HolderView.swift */; };
+		F36F53C921127E8A00916198 /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F53C521127E8A00916198 /* ArcLayer.swift */; };
+		F3810695212E1DA0008FC432 /* Quicksand-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F381068F212E1DA0008FC432 /* Quicksand-BoldItalic.otf */; };
+		F3810696212E1DA0008FC432 /* Quicksand-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3810690212E1DA0008FC432 /* Quicksand-Bold.otf */; };
+		F3810697212E1DA0008FC432 /* Quicksand-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3810691212E1DA0008FC432 /* Quicksand-LightItalic.otf */; };
+		F3810698212E1DA0008FC432 /* Quicksand-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3810692212E1DA0008FC432 /* Quicksand-Italic.otf */; };
+		F3810699212E1DA0008FC432 /* Quicksand-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3810693212E1DA0008FC432 /* Quicksand-Light.otf */; };
+		F381069A212E1DA0008FC432 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3810694212E1DA0008FC432 /* Quicksand_Dash.otf */; };
+		F381069C212E1F28008FC432 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F381069B212E1F27008FC432 /* Fonts.swift */; };
+		F38106A8212F6C9E008FC432 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38106A7212F6C9E008FC432 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +36,22 @@
 		F35D326521126B8E003A3BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F35D326721126B8E003A3BA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F35D326A21126B8E003A3BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F35D326D21126B8E003A3BA2 /* WaterTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaterTracker.xcdatamodel; sourceTree = "<group>"; };
 		F35D326F21126B8E003A3BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F35D327221126B8E003A3BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F35D327421126B8E003A3BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35D327A21126BCA003A3BA2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F36F53C221127E8800916198 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F36F53C321127E8900916198 /* RectangleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		F36F53C421127E8A00916198 /* HolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		F36F53C521127E8A00916198 /* ArcLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		F381068F212E1DA0008FC432 /* Quicksand-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-BoldItalic.otf"; sourceTree = "<group>"; };
+		F3810690212E1DA0008FC432 /* Quicksand-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.otf"; sourceTree = "<group>"; };
+		F3810691212E1DA0008FC432 /* Quicksand-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-LightItalic.otf"; sourceTree = "<group>"; };
+		F3810692212E1DA0008FC432 /* Quicksand-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Italic.otf"; sourceTree = "<group>"; };
+		F3810693212E1DA0008FC432 /* Quicksand-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.otf"; sourceTree = "<group>"; };
+		F3810694212E1DA0008FC432 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		F381069B212E1F27008FC432 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		F38106A7212F6C9E008FC432 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +96,43 @@
 		F35D326421126B8E003A3BA2 /* WaterTracker */ = {
 			isa = PBXGroup;
 			children = (
+				F36F53CA21127E9700916198 /* UI */,
 				F35D326521126B8E003A3BA2 /* AppDelegate.swift */,
 				F35D326721126B8E003A3BA2 /* ViewController.swift */,
 				F35D327A21126BCA003A3BA2 /* ViewModel.swift */,
 				F35D326921126B8E003A3BA2 /* Main.storyboard */,
+				F38106A7212F6C9E008FC432 /* ChartView.swift */,
 				F35D326F21126B8E003A3BA2 /* Assets.xcassets */,
+				F381068E212E1DA0008FC432 /* quicksand */,
 				F35D327121126B8E003A3BA2 /* LaunchScreen.storyboard */,
 				F35D327421126B8E003A3BA2 /* Info.plist */,
-				F35D326C21126B8E003A3BA2 /* WaterTracker.xcdatamodeld */,
 			);
 			path = WaterTracker;
+			sourceTree = "<group>";
+		};
+		F36F53CA21127E9700916198 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F36F53C421127E8A00916198 /* HolderView.swift */,
+				F36F53C221127E8800916198 /* Colors.swift */,
+				F381069B212E1F27008FC432 /* Fonts.swift */,
+				F36F53C521127E8A00916198 /* ArcLayer.swift */,
+				F36F53C321127E8900916198 /* RectangleLayer.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F381068E212E1DA0008FC432 /* quicksand */ = {
+			isa = PBXGroup;
+			children = (
+				F381068F212E1DA0008FC432 /* Quicksand-BoldItalic.otf */,
+				F3810690212E1DA0008FC432 /* Quicksand-Bold.otf */,
+				F3810691212E1DA0008FC432 /* Quicksand-LightItalic.otf */,
+				F3810692212E1DA0008FC432 /* Quicksand-Italic.otf */,
+				F3810693212E1DA0008FC432 /* Quicksand-Light.otf */,
+				F3810694212E1DA0008FC432 /* Quicksand_Dash.otf */,
+			);
+			path = quicksand;
 			sourceTree = "<group>";
 		};
 		FFA84A0F081CBD7B62F50C2E /* Frameworks */ = {
@@ -157,7 +206,13 @@
 			files = (
 				F35D327321126B8E003A3BA2 /* LaunchScreen.storyboard in Resources */,
 				F35D327021126B8E003A3BA2 /* Assets.xcassets in Resources */,
+				F3810699212E1DA0008FC432 /* Quicksand-Light.otf in Resources */,
+				F3810695212E1DA0008FC432 /* Quicksand-BoldItalic.otf in Resources */,
 				F35D326B21126B8E003A3BA2 /* Main.storyboard in Resources */,
+				F3810697212E1DA0008FC432 /* Quicksand-LightItalic.otf in Resources */,
+				F381069A212E1DA0008FC432 /* Quicksand_Dash.otf in Resources */,
+				F3810696212E1DA0008FC432 /* Quicksand-Bold.otf in Resources */,
+				F3810698212E1DA0008FC432 /* Quicksand-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,11 +226,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WaterTracker/Pods-WaterTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -207,9 +270,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35D326E21126B8E003A3BA2 /* WaterTracker.xcdatamodeld in Sources */,
+				F36F53C821127E8A00916198 /* HolderView.swift in Sources */,
 				F35D326821126B8E003A3BA2 /* ViewController.swift in Sources */,
+				F36F53C621127E8A00916198 /* Colors.swift in Sources */,
 				F35D327B21126BCA003A3BA2 /* ViewModel.swift in Sources */,
+				F36F53C921127E8A00916198 /* ArcLayer.swift in Sources */,
+				F38106A8212F6C9E008FC432 /* ChartView.swift in Sources */,
+				F36F53C721127E8A00916198 /* RectangleLayer.swift in Sources */,
+				F381069C212E1F28008FC432 /* Fonts.swift in Sources */,
 				F35D326621126B8E003A3BA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,19 +465,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F35D326C21126B8E003A3BA2 /* WaterTracker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F35D326D21126B8E003A3BA2 /* WaterTracker.xcdatamodel */,
-			);
-			currentVersion = F35D326D21126B8E003A3BA2 /* WaterTracker.xcdatamodel */;
-			path = WaterTracker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F35D325A21126B8E003A3BA2 /* Project object */;
 }
