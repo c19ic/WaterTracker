@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D1966CA16744F5B7B30B944 /* Pods_WaterTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC3C99BB406ABC0627BC62B /* Pods_WaterTracker.framework */; };
+		F32EC4672140506500BCE534 /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EC4662140506500BCE534 /* ChartViewModel.swift */; };
 		F35D326621126B8E003A3BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D326521126B8E003A3BA2 /* AppDelegate.swift */; };
 		F35D326821126B8E003A3BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D326721126B8E003A3BA2 /* ViewController.swift */; };
 		F35D326B21126B8E003A3BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35D326921126B8E003A3BA2 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		0BC3C99BB406ABC0627BC62B /* Pods_WaterTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747CEA01F84A5A1540E57053 /* Pods-WaterTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterTracker/Pods-WaterTracker.release.xcconfig"; sourceTree = "<group>"; };
 		E7A264FB63798EF865FC4F4E /* Pods-WaterTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterTracker/Pods-WaterTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		F32EC4662140506500BCE534 /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
 		F35D326221126B8E003A3BA2 /* WaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35D326521126B8E003A3BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F35D326721126B8E003A3BA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,8 +102,9 @@
 				F35D326521126B8E003A3BA2 /* AppDelegate.swift */,
 				F35D326721126B8E003A3BA2 /* ViewController.swift */,
 				F35D327A21126BCA003A3BA2 /* ViewModel.swift */,
-				F35D326921126B8E003A3BA2 /* Main.storyboard */,
 				F38106A7212F6C9E008FC432 /* ChartView.swift */,
+				F32EC4662140506500BCE534 /* ChartViewModel.swift */,
+				F35D326921126B8E003A3BA2 /* Main.storyboard */,
 				F35D326F21126B8E003A3BA2 /* Assets.xcassets */,
 				F381068E212E1DA0008FC432 /* quicksand */,
 				F35D327121126B8E003A3BA2 /* LaunchScreen.storyboard */,
@@ -172,7 +175,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Isha Chirimar";
 				TargetAttributes = {
 					F35D326121126B8E003A3BA2 = {
@@ -275,6 +278,7 @@
 				F36F53C621127E8A00916198 /* Colors.swift in Sources */,
 				F35D327B21126BCA003A3BA2 /* ViewModel.swift in Sources */,
 				F36F53C921127E8A00916198 /* ArcLayer.swift in Sources */,
+				F32EC4672140506500BCE534 /* ChartViewModel.swift in Sources */,
 				F38106A8212F6C9E008FC432 /* ChartView.swift in Sources */,
 				F36F53C721127E8A00916198 /* RectangleLayer.swift in Sources */,
 				F381069C212E1F28008FC432 /* Fonts.swift in Sources */,
@@ -318,6 +322,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -325,6 +330,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -375,6 +381,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -382,6 +389,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

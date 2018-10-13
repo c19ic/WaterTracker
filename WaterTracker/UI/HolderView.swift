@@ -22,7 +22,7 @@ class HolderView: UIView {
     
     @objc func drawBlueAnimatedRectangle() {
         layer.addSublayer(blueRectangleLayer)
-        blueRectangleLayer.animateStrokeWithColor(color: #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1))
+        blueRectangleLayer.animateStrokeWithColor(color: UIColor.dark)
     }
     
     @objc func drawArc() {
